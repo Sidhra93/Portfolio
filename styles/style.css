@@ -1,0 +1,62 @@
+/*
+DARK PRIMARY COLOR #455A64
+LIGHT PRIMARY COLOR #CFD8DC
+PRIMARY COLOR #607D8B
+TEXT / ICONS #FFFFFF
+ACCENT COLOR #7C4DFF
+PRIMARY TEXT #212121
+SECONDARY TEXT #757575
+DIVIDER COLOR #BDBDBD
+*/
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+header {
+  background: #455a64;
+  color: #fff;
+}
+
+.logo {
+  padding: .5rem 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+}
+
+nav a:hover {
+  color: #fff;
+  background: #7c4dff;
+  text-decoration: none;
+}
+
+
+/*-------------------WORKS------------------------*/
+
+.project {
+  padding: 2rem;
+}
+
+.project ul{
+  text-align: center;
+  display: flex;
+  list-style: none;
+}
+
+.project a{
+  color: #7c4dff;
+  display: block;
+  padding: .5rem 1rem;
+}
