@@ -69,48 +69,28 @@ nav a:hover {
   color: #fff;
 }
 
-.tag {
+.tag{
   text-align: center;
   padding: 120px 100px 0 100px;
   font-size: 28px;
   font-weight: bold;
 }
 
-.zigzagdiv{
-  position: relative;
-  width: 100%;
-  height: 5px;
-  background: #fff;
-}
-
-.zigzagdiv:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -10px;
-  width: 100%;
-  height: 10px;
-  background:
-    linear-gradient(
-      45deg, transparent 33.333%,
-      #fff 33.333%, #fff 66.667%,
-      transparent 66.667%
-    ),
-    linear-gradient(
-      -45deg, transparent 33.333%,
-      #fff 33.333%, #fff 66.667%,
-      transparent 66.667%
-    );
-  background-size: 15px 40px;
-}
-
 /*------------------SKILLS--------------------*/
 
-#skills .image {
+.skills {
+  padding: 50px 0;
+}
+
+.skills .image {
   padding: 4rem;
 }
 
 /*-------------------WORKS------------------------*/
+
+.works {
+  padding: 50px 0;
+}
 
 .projects span {
   display: block;
@@ -146,4 +126,43 @@ nav a:hover {
   background: rgba(45, 45, 45, .5);
   color: #fff;
   font-size: 14px;
+}
+
+/*---------------------OTHER-------------------------------*/
+
+.quote {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  background: #607D8B;
+  padding: 50px 100px;
+}
+
+
+.zigzagdiv{
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #fff;
+}
+
+.zigzagdiv:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #fff 33.333%, #fff 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #fff 33.333%, #fff 66.667%,
+      transparent 66.667%
+    );
+  background-size: 15px 40px;
 }
