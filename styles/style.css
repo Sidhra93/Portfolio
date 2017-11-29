@@ -76,6 +76,20 @@ nav a:hover {
   font-weight: bold;
 }
 
+.tag a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.tag a:hover {
+  text-decoration: none;
+  background: rgba(45, 45, 45, 0.7);
+}
+
 /*------------------SKILLS--------------------*/
 
 .skills {
@@ -134,6 +148,7 @@ nav a:hover {
   font-size: 28px;
   text-align: center;
   font-weight: bold;
+  font-style: italic;
   background: #607D8B;
   padding: 50px 100px;
 }
